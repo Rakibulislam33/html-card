@@ -1,0 +1,55 @@
+:root{
+    --primary-color: #266AEA;
+    --secondary-color: #FF6A29;
+    --text-color:white;
+    --acenct-color:yellow;
+}
+
+
+/* ================ Card Section Style Start ====================== */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+.single-card-block{
+    max-width: 300px;
+    padding: 20px;
+    background: var(--primary-color);
+    border-radius: 20px;
+}
+.card-img img{
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    
+}
+
+.card-content{
+    font-family: Poppins;
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+.card-content h3{
+    font-size: 17px;
+}
+
+.card-content .btn {
+    background: var(--text-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.single-card-orange{
+    background-color: var(--secondary-color);
+}
+
+.single-card-orange .btn-orange{
+    color: var(--secondary-color);
+
+}
